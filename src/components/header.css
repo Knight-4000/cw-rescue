@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Patrick+Hand:regular,bold,italic&subset=latin,latin-ext');
+
+.header{
+  font-family: Patrick Hand, cursive;
+  font-size: 1.275rem;
+}
+
+:focus {
+  outline: none;
+  box-shadow: #fff;
+}
+
+/* Actual slide down mobile menu operation */
+
+.side-slider-enter {
+    opacity: 0;
+    transform:translateY(-100%);
+  }
+  .side-slider-enter-active {
+    opacity: 1;
+    transform:translateY(0);
+    transition: opacity 400ms, transform 400ms;
+  }
+  .side-slider-exit {
+    opacity: 1;
+    transform:translateY(0);
+  }
+  .side-slider-exit-active {
+    opacity: 0;
+    transform:translateY(-100%);
+    transition: opacity 400ms, transform 400ms;
+  }
+
+
+/* Mobile menu button transformation */
+
+
+  .lineTop, .lineBottom, .lineMiddle{
+    width: 24px;
+    height: 2px;
+    border-radius: 10px;
+    background: rgb(14, 13, 13);
+    left: 0;
+    right: 0;
+    transform: all 0.4s;
+    transition: all 0.7s;
+    margin: 2px;
+}
+
+.lineTop {
+    top: 2.2em;
+
+}
+
+.lineMiddle{
+    top: 2.8em;
+}
+ .lineBottom {
+    top: 3.4em;
+}
+
+.lineTop.spin {
+    top: 2.35em;
+    transform: rotate(135deg);
+    background: #000;
+    margin: -2px;
+}
+
+.lineBottom.spin, .lineMiddle.spin {
+    top: 2.35em;
+    transform: rotate(225deg);
+    background: #000;
+    margin: -2px;
+}
+
+/* Laptop dropdown links */
+
+  .centered-label {
+    display: flex;
+    align-items: center;
+  }
+
+  /* Needed Button */
+
+  .nav-button{
+    border-color: #fff;
+    background: #fff;
+    box-shadow: none;
+    font-family: Raleway;
+    font-size: 1.275rem;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+  }
+
+  .nav-button:hover{
+    background: blue;
+    border-radius: 8px;
+    color:#fff;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+  }
