@@ -1,0 +1,39 @@
+.accordion-link{
+    color: #fff;
+    font-family: Dancing Script;
+    font-size: 1.8rem;
+}
+
+.accordion-icon, .donations li p{
+    font-size: 1.575rem;
+}
+
+.donations li {
+    padding-left: 16vw;
+    display: flex;
+    align-items: center;
+}
+
+.donations li p{
+    margin-left: 2vw;
+    font-family: Raleway;
+}
+
+.accordion-enter {
+    opacity: 0;
+    transform:translateY(-100%);
+  }
+  .accordion-enter-active {
+    opacity: 1;
+    transform:translateY(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+  .accordion-exit {
+    opacity: 1;
+    transform:translateY(0);
+  }
+  .accordion-exit-active {
+    opacity: 0;
+    transform:translateY(-100%);
+    transition: opacity 300ms, transform 300ms;
+  }
