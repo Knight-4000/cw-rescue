@@ -1,0 +1,20 @@
+.SwiperSlide {
+    background-position: center;
+    z-index: -1;
+}
+
+.carousel-image{
+    background-repeat: no-repeat;
+    background-position: center-top;
+    background-size: cover;
+    height: 90vh;
+    z-index: -1;
+}
+
+.carousel-message{
+    color: #fff;
+    font-size: 2.875em;
+    padding-top: 40%;
+}
+
+  

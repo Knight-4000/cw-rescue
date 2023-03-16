@@ -5,7 +5,9 @@ import Home from "./pages/Home";
 import Cats from './pages/Cats';
 import CreateCat from './pages/CreateCat';
 import Dogs from './pages/Dogs';
+import CreateDog from './pages/CreateDog';
 import Others from './pages/Others';
+import CreateOther from './pages/CreateOther';
 
 function App() {
   return (
