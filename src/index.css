@@ -2,10 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Source+Patrick+Hand:regular,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 body {
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-  scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
 }
 body::-webkit-scrollbar { 
-  display: none;  /* Safari and Chrome */
+    display: none;  /* Safari and Chrome */
 }
+
+.nav-button{
+    font-family: Raleway;
+    box-shadow: none;
+}
+
+.current-location{
+    color: blue;
+}
+
+.contact-mobile{
+    padding-top: 2vh;
+    font-size: 3.5rem;
+    background-color: blue;
+    color: #fff;
+}
+.window{
+    height: 70vh;
+    width: 80v;
+    background: blue;
+}
+
+.window ul li{
+    color: #fff;
+    font-family: Raleway;
+    font-size: 2.575em;
+    padding-top: 5vh;
+}
+

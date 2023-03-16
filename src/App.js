@@ -1,5 +1,4 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import './App.css';
 import Header from './components/Header';
 import Home from "./pages/Home";
 import Cats from './pages/Cats';
@@ -8,6 +7,7 @@ import Dogs from './pages/Dogs';
 import CreateDog from './pages/CreateDog';
 import Others from './pages/Others';
 import CreateOther from './pages/CreateOther';
+import './App.css';
 
 function App() {
   return (

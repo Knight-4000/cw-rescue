@@ -13,12 +13,12 @@ export default function DropdownComponent() {
     <div>
        <Menu as="div" className="menu relative inline-block text-left">
             <div>
-                <Menu.Button className="dropdown inline-flex justify-center w-full px-4 py-2 text-sm font-medium
-                 text-gray-700 bg-white border rounded-md shadow-sm hover:bg-gray-50 focus:#fff;"
+                <Menu.Button className="dropdown inline-flex justify-center w-full px-4 py-2 font-medium
+                 bg-white rounded-md shadow-sm focus:#fff;"
                  onClick={() => setArrowTwoFlip(!arrowTwoFlip)}>
                     Adopt
                     <svg
-                        className={arrowTwoFlip ? "arrowTwoFlip spin w-5 h-5 ml-2 -mr-1" : "arrowTwoFlip w-5 h-5 ml-2 -mr-1"}
+                        className={arrowTwoFlip ? "arrowTwoFlip spin w-5 h-5 ml-2 -mr-1 mt-1" : "arrowTwoFlip w-5 h-5 ml-2 -mr-1 mt-1"}
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"

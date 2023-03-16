@@ -1,5 +1,7 @@
 import { React, useState } from "react";
 import { CSSTransition } from "react-transition-group";
+import AdoptDropdown from "./AdoptDropdown";
+import AdoptAccordion from "./AdoptAccordion";
 import './header.css';
 
 export default function Header() {
@@ -22,7 +24,7 @@ export default function Header() {
             <div className="hidden w-full md:block md:w-auto" id="mobile-menu">
               <ul className='flex space-x-10'>
                 <li className="centered-label">
-                Adopt
+                <AdoptDropdown />
               </li>
               <li>
                 <a href="/mission" className="nav-button inline-flex justify-center rounded-md shadow-sm w-full px-4 py-2">
@@ -39,7 +41,7 @@ export default function Header() {
           <div className="window">
             <ul className="list-reset flex flex-col lg:flex-row justify-center flex-1 items-center">
               <li className="py-1">
-                Adopt
+              <AdoptAccordion />
               </li>
               <li className="py-1 cursor-pointer accordion-link">
               <a href="/mission">Mission</a>
