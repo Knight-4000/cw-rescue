@@ -1,0 +1,65 @@
+.about-us{
+    height: auto;
+    background: #0909FF;
+    text-align: center;
+    padding-bottom: 20vh;
+}
+
+.about-us h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 4.0em;
+    font-weight: bolder;
+    color: #fff;  
+}
+
+.about-us p{
+    font-family: Raleway;
+    font-size: 1.575rem;
+    color: #fff;
+}
+
+.button-link{
+    background-color: #1F45FC;
+    border-radius: 25px;
+    color: #fff;
+    font-family: Raleway;
+}
+
+.button-link:hover{
+    background: #B22222;
+    transition-property: all;
+    transition-duration: 0.7s;
+}
+
+.home-card{margin-top: -20vh;}
+
+.home-card h3{
+    font-family: Dancing Script;
+    font-size: 2.575rem;
+}
+
+.home-card p{
+    font-family: Raleway;
+    font-size: 1.175rem;
+}
+
+.home-card button{
+    background: #0909FF;
+    color: #fff;
+    border-radius: 25px;
+}
+
+#btn{
+    margin-top: 15vh;
+    background: #0909FF;
+    border-radius: 25px;
+}
+
+.staff h1{ 
+    font-family: Patrick Hand, cursive;
+    padding-bottom: 80px;
+}
+
+.staff h3{ 
+    padding-top: 80px;
+}

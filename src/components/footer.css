@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Patrick+Hand:regular,bold,italic&subset=latin,latin-ext');
+
+
+.footer-banner{
+    font-family: Patrick Hand, cursive;
+    font-size: 1.575rem;
+    color: #0909FF;
+}
+
+.footer-header{
+    font-size: 2.075rem;
+}
+
+.follow-us{
+    font-size: 1.775rem;
+    font-family: Patrick Hand, cursive;
+}
+
+.facebook-icon, .twitter-icon, .vimeo-icon{font-size: 2.475rem;}
+
+.facebook-icon{color: #1877F2;}
+
+.twitter-icon{color: #1DA1F2}
+
+.vimeo-icon{color: #19B7EA}
+
+#footer-link-top{
+    margin-top: 48px;
+}
+
+.footer-links{
+    font-family: Patrick Hand, cursive;
+    font-size: 1.375rem;
+}
+
+.footer-contact{
+    font-weight: bold;
+    font-size: 1.175rem;
+}
+.footer-sublinks{
+    font-family: Patrick Hand, cursive;
+    font-size: 1.175rem;
+}
