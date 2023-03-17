@@ -1,0 +1,76 @@
+/* Cats category view */
+@import url('https://fonts.googleapis.com/css?family=Source+Patrick+Hand:regular,bold,italic&subset=latin,latin-ext');
+.animal-show{background: gray;}
+
+.animal.card{
+    background: white;
+    width: 80vw;
+}
+
+.cat-card{
+    box-shadow: none;
+    padding: 0 10vw;
+}
+
+.animal-image{
+    height: 40vh;
+    width: auto;
+    background-position: center top;
+}
+
+.animal-name{
+    padding-top: 2vh;
+    font-size: 1.575rem;
+    font-family: Raleway;
+    font-weight:bold;
+}
+
+.animal-char{
+    font-size: 1.075rem;
+    font-family: Raleway;
+    font-weight: 200;
+}
+
+.button-link{
+    background-color: #1F45FC;
+    border-radius: 25px;
+    color: #fff;
+    font-family: Raleway;
+}
+
+.button-link:hover{
+    background: #B22222;
+    transition-property: all;
+    transition-duration: 0.7s;
+}
+
+/* Cats single view or "show" page */
+
+.category-header{
+    font-family: Raleway;
+    font-weight: bolder;
+    font-size: 1.850em;
+}
+
+.animal-name{
+    font-family: Patrick Hand, cursive;
+    font-weight: bold;
+    font-size: 2.575em;
+    padding-bottom: 2vh;
+}
+
+.animal-data{
+    font-family: Raleway;
+  font-size: 0.975em;
+}
+
+hr {
+    width:60%;
+    margin:0 auto;
+}
+
+.category-name{
+  padding: 2vh 0;
+  font-family: Raleway;
+  font-size: 1.275em;
+}
