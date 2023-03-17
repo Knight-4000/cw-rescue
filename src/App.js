@@ -8,6 +8,9 @@ import Dogs from './pages/Dogs';
 import CreateDog from './pages/CreateDog';
 import Others from './pages/Others';
 import CreateOther from './pages/CreateOther';
+import Mission from './pages/Mission';
+import Needed from './pages/Needed';
+
 import './App.css';
 
 function App() {
@@ -17,12 +20,12 @@ function App() {
       <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/mission" element={<Mission />} />
+          <Route path="/needed" element={<Needed />} />
           <Route path="/create-cat" element={<CreateCat />} />
           <Route path="/cats" element={<Cats />} />
-
           <Route path="/create-dog" element={<CreateDog />} />
           <Route path="/dogs" element={<Dogs />} />
-
           <Route path="/create-other" element={<CreateOther />} />
           <Route path="/others" element={<Others />} />
         </Routes>

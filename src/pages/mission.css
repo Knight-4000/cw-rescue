@@ -1,0 +1,16 @@
+.mission h1 {
+    font-family: Patrick Hand, cursive;
+    font-size: 3.075rem;
+}
+
+.mission h2 {
+    font-family: Patrick Hand, cursive;
+    font-size: 2.575rem;
+}
+
+.mission p, .mission ul li{
+    font-family: Raleway;
+    font-size: 1.175rem;
+}
+
+.mission ul{ padding-left: 4vw; }
