@@ -116,7 +116,6 @@ export default function CreateCat() {
           timestamp: serverTimestamp(),
         };
         delete formDataCopy.images;
-        !formDataCopy.offer && delete formDataCopy.discountedPrice;
         const docRef = await addDoc(collection(db, "cats"), formDataCopy);
         setLoading(false);
         toast.success("Cat added");

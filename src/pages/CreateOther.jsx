@@ -118,7 +118,6 @@ export default function CreateOther() {
           timestamp: serverTimestamp(),
         };
         delete formDataCopy.images;
-        !formDataCopy.offer && delete formDataCopy.discountedPrice;
         const docRef = await addDoc(collection(db, "others"), formDataCopy);
         setLoading(false);
         toast.success("Animal added");
