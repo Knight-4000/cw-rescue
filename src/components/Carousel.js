@@ -52,7 +52,7 @@ export default function Slider() {
               style={{
                 background: `url(${data.imgUrls[0]}) `,
                 backgroundSize: "cover",
-                backgroundPosition: "center left",
+                backgroundPosition: "left center",
               }}
               className="carousel-image swiper-slide-active relative w-full overflow-hidden" 
             >
