@@ -5,7 +5,7 @@
 
 .carousel-image{
     background-repeat: no-repeat;
-    background-position: 20% 30%!important;
+    background-position: 10% 30%!important;
     background-size: cover;
     height: 90vh;
     z-index: -1;
